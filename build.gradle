@@ -1,3 +1,16 @@
+
+buildscript {
+
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath "com.android.tools.build:gradle:4.1.0"
+        classpath 'com.github.dcendents:android-maven-gradle-plugin:2.1'
+    }
+}
+
 plugins {
     id 'com.android.library'
 //    id 'maven-publish' //新添加的
@@ -78,17 +91,7 @@ dependencies {
 
 }
 
-buildscript {
 
-    repositories {
-        google()
-        jcenter()
-    }
-    dependencies {
-        classpath "com.android.tools.build:gradle:4.1.0"
-        classpath 'com.github.dcendents:android-maven-gradle-plugin:2.1'
-    }
-}
 
 //def SDK_BASENAME = "PrintSDK";
 //def sdkDestinationPath = "build/libs/";
