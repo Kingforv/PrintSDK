@@ -1,7 +1,7 @@
 plugins {
     id 'com.android.library'
-    id 'maven-publish' //新添加的
-
+//    id 'maven-publish' //新添加的
+    id 'com.github.dcendents.android-maven'
 
 
 }
